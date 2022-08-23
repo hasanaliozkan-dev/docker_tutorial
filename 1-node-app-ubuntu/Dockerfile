@@ -5,6 +5,7 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x | bash
 RUN apt-get install -y nodejs
 WORKDIR /opt/node-app
 COPY . /opt/node-app
-COPY . .
+#COPY . .
+ENV userName=hasanaliozkan
 #CMD ["node", "/opt/node-app/index.js"];
 CMD ["node", "index.js"];

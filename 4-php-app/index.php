@@ -1,0 +1,4 @@
+<? 
+echo "PHP is working";
+
+?>
